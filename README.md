@@ -1,6 +1,6 @@
 # Analysis-and-prediction-of-hotel-bookings-dataset
 
-Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-booking-demand )。该数据最初摘自Nuno Antonio，Ana Almeida和Luis Nunes为2019年2月第22卷的数据简介撰写的酒店预订需求数据集(https://www.sciencedirect.com/science/article/pii/S2352340918315191 )。现已由 Thomas Mock 和 Antoine Bichat 在2020年2月11日下载清理并发布(https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md)。
+Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-booking-demand )。该数据最初摘自Nuno Antonio，Ana Almeida和Luis Nunes为2019年2月第22卷的数据简介撰写的酒店预订需求数据集( https://www.sciencedirect.com/science/article/pii/S2352340918315191 )。现已由 Thomas Mock 和 Antoine Bichat 在2020年2月11日下载清理并发布(https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md)。
 
 该数据集具体包含两个不同酒店（度假酒店和城市酒店）在预订到达日期之前的数据，其中包括一家度假酒店和一家城市酒店。具体变量包括诸如预订的时间、停留时间、成人、儿童或婴儿的数量以及可用停车位的数量等信息，总计36个。
 
@@ -43,11 +43,7 @@ Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-boo
 <img src="images/2.png" style="width:700;height:450;">
 <img src="images/3.png" style="width:700;height:450;">
 
-通过1.2的图1和图2，可以发现，这两家酒店的预订者来自世界各地，但是其中一般以上的客户来自于PRT、GBR和FRA这三个国家，
-
-即葡萄牙、英国和法国，而葡萄牙的客户尤其钟爱这两家酒店，占总体用户的28%。
-
-此外，通过图3这些客户中主要以成人为主，以青少年为主要构成的客户只占1.74%，而以儿童为主要构成的客户只有16家，仅占比0.02%。
+通过1.2的图1和图2，可以发现，这两家酒店的预订者来自世界各地，但是其中一般以上的客户来自于PRT、GBR和FRA这三个国家，即葡萄牙、英国和法国，而葡萄牙的客户尤其钟爱这两家酒店，占总体用户的28%。此外，通过图3这些客户中主要以成人为主，以青少年为主要构成的客户只占1.74%，而以儿童为主要构成的客户只有16家，仅占比0.02%。
 
 ### 1.3 客人平均预订多少时间，具体分布？
 
