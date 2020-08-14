@@ -1,6 +1,6 @@
 # Analysis-and-prediction-of-hotel-bookings-dataset
 
-Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-booking-demand )。该数据最初摘自Nuno Antonio，Ana Almeida和Luis Nunes为2019年2月第22卷的数据简介撰写的酒店预订需求数据集( https://www.sciencedirect.com/science/article/pii/S2352340918315191 )。现已由 Thomas Mock 和 Antoine Bichat 在2020年2月11日下载清理并发布(https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md)。
+Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-booking-demand )。该数据最初摘自Nuno Antonio，Ana Almeida和Luis Nunes为2019年2月第22卷的数据简介撰写的酒店预订需求数据集(https://www.sciencedirect.com/science/article/pii/S2352340918315191 )。现已由 Thomas Mock 和 Antoine Bichat 在2020年2月11日下载清理并发布(https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md)。
 
 该数据集具体包含两个不同酒店（度假酒店和城市酒店）在预订到达日期之前的数据，其中包括一家度假酒店和一家城市酒店。具体变量包括诸如预订的时间、停留时间、成人、儿童或婴儿的数量以及可用停车位的数量等信息，总计36个。
 
@@ -188,6 +188,4 @@ Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-boo
 
 当然，以上只是进行了初步的调参，在此之外还可以通过对gamma、subsample 、colsample_bytree、reg_alpha 等参数的调整对模型进行进一步的优化。
 
-值得注意的是，XGBoost的参数调整优化并不能大幅度提升模型性能，需要更高的精度和泛化能力的话可以根据自己的需求对特征构成、数据处理这两个方面进
-
-行更个性化的处理和调整。
+值得注意的是，XGBoost的参数调整优化并不能大幅度提升模型性能，需要更高的精度和泛化能力的话可以根据自己的需求对特征构成、数据处理这两个方面进行更个性化的处理和调整。
