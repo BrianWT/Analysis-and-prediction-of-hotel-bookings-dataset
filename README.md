@@ -1,6 +1,6 @@
 # Analysis-and-prediction-of-hotel-bookings-dataset
 
-Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-booking-demand )。该数据最初摘自Nuno Antonio，Ana Almeida和Luis Nunes为2019年2月第22卷的数据简介撰写的酒店预订需求数据集( https://www.sciencedirect.com/science/article/pii/S2352340918315191 )。现已由 Thomas Mock 和 Antoine Bichat 在2020年2月11日下载清理并发布(https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md)。
+[Hotel bookings dataset](https://www.kaggle.com/jessemostipak/hotel-booking-demand), 该数据最初摘自Nuno Antonio，Ana Almeida和Luis Nunes为2019年2月第22卷的数据简介撰写的[酒店预订需求数据集](https://www.sciencedirect.com/science/article/pii/S2352340918315191)。现已由 Thomas Mock 和 Antoine Bichat 在2020年2月11日下载清理并[发布](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md)。
 
 该数据集具体包含两个不同酒店（度假酒店和城市酒店）在预订到达日期之前的数据，其中包括一家度假酒店和一家城市酒店。具体变量包括诸如预订的时间、停留时间、成人、儿童或婴儿的数量以及可用停车位的数量等信息，总计36个。
 
@@ -50,28 +50,21 @@ Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-boo
 <img src="images/4.png" style="width:700;height:450;">
 <img src="images/5.png" style="width:700;height:450;">
 
-通过1.3的图1，可以发现，客户的预定天数呈现一种右偏分布，大多数客户会预订1-4天，每位用户平均会预订3天。
-
-而在这其中，Resort Hotel的客户平均预订天数大于City Hotel。
+通过1.3的图1，可以发现，客户的预定天数呈现一种右偏分布，大多数客户会预订1-4天，每位用户平均会预订3天。而在这其中，Resort Hotel的客户平均预订天数大于City Hotel。
 
 ### 1.4 通过meal分析客人对于服务的需求？
 
 <img src="images/6.png" style="width:700;height:450;">
 
 总的来说，大部分客户都会选择BB套餐，即住宿+早餐，这也符合我们一般的认知。
-
 同时，值得注意的是，选择FB套餐的客户有更大的几率取消预订，一般的客户并不会选择由酒店提供全部的食宿，而图表也的确证明了这一点。
-
 这一现象可能是由于该用户并不确定自己是否真的需要该酒店的服务（不确定旅行的时候是否有假期等等），因此没有认真的进行预订。
 
 ### 1.5 一年中房价如何变化，客人每晚为一间客房支付多少费用？
 
 <img src="images/7.png" style="width:720;height:500;">
 
-可以发现，胜地酒店（Resort Hotel）在夏季特别是八月左右的时候其房价将达到全年的峰值。
-
-但是在其他的季节，胜地酒店的房价则相对处于一个较低的水平。
-
+可以发现，胜地酒店（Resort Hotel）在夏季特别是八月左右的时候其房价将达到全年的峰值。但是在其他的季节，胜地酒店的房价则相对处于一个较低的水平。
 而城市酒店（City Hotel）则相对稳定，其平均房价除了夏季之外其他的季节均稳定在胜地酒店之上，其房价高峰在4-9月之间，连续性较强。
 
 ### 1.6 一年中哪个月最忙，或者哪个时间段最忙？
@@ -79,16 +72,10 @@ Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-boo
 <img src="images/8.png" style="width:720;height:500;">
 
 总体而言，春秋两季是这两家酒店的旺季，其有效旅客量达到全年的高峰。
-
 具体而言，城市酒店（City Hotel）每个月的旅客量均大于胜地酒店（Resort Hotel），在旅客旺季（即春秋两季）这种离散程度更是达到了高峰。
-
 此外，5到6月、10到11月，两家酒店的旅客数量都呈现一个显著的下降，这说明夏、冬两季旅客相对较少，其中又以冬季最为萧条。
-
 最后，结合1.5的图，可以判断出，城市酒店（City Hotel）的盈利能力远超胜地酒店（Resort Hotel）。
-
-这是由于城市酒店（City Hotel）在其价格高峰季时也恰好是其旅客高峰期，这说明该酒店的服务质量相对胜地酒店（Resort Hotel）更为客户认可。
-
-而胜地酒店在其旅客高峰期间其房价相对较低，这说明该酒店的核心竞争力可能不强，只能通过降低房价以完成吸引顾客的目的。
+这是由于城市酒店（City Hotel）在其价格高峰季时也恰好是其旅客高峰期，这说明该酒店的服务质量相对胜地酒店（Resort Hotel）更为客户认可。而胜地酒店在其旅客高峰期间其房价相对较低，这说明该酒店的核心竞争力可能不强，只能通过降低房价以完成吸引顾客的目的。
 
 ### 1.7 两个酒店各自的旅客入住时间主要是周几？
 
@@ -180,8 +167,6 @@ Hotel bookings dataset 来源于( https://www.kaggle.com/jessemostipak/hotel-boo
 
 <img src="images/15.png" style="width:720;height:500;">
 
-可以发现，通过初步的参数调优，模型的泛化性能有了一定的提升。
-
-当然，以上只是进行了初步的调参，在此之外还可以通过对gamma、subsample 、colsample_bytree、reg_alpha 等参数的调整对模型进行进一步的优化。
+可以发现，通过初步的参数调优，模型的泛化性能有了一定的提升。当然，以上只是进行了初步的调参，在此之外还可以通过对gamma、subsample 、colsample_bytree、reg_alpha 等参数的调整对模型进行进一步的优化。
 
 值得注意的是，XGBoost的参数调整优化并不能大幅度提升模型性能，需要更高的精度和泛化能力的话可以根据自己的需求对特征构成、数据处理这两个方面进行更个性化的处理和调整。
