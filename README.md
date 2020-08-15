@@ -39,7 +39,7 @@
 
 ### 1.2 客人来自哪里，其年龄组成是怎么样的？
 
-<img src="images/1.png" style="display: block; margin: 0 auto;">
+<img src="images/1.png" style="width:700;height:450;">
 <img src="images/2.png" style="width:700;height:450;">
 <img src="images/3.png" style="width:700;height:450;">
 
