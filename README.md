@@ -38,11 +38,11 @@
 主要是根据Nuno Antonio等对该数据的[补充说明](https://www.sciencedirect.com/science/article/pii/S2352340918315191)对数据集进行相关调整，并对缺失值进行。
 
 ### 1.2 客人来自哪里，其年龄组成是怎么样的？
-
+<div style="align: center">
 <img src="images/1.png" style="width:700;height:450;">
 <img src="images/2.png" style="width:700;height:450;">
 <img src="images/3.png" style="width:700;height:450;">
-
+</div>
 通过1.2的图1和图2，可以发现，这两家酒店的预订者来自世界各地，但是其中一般以上的客户来自于PRT、GBR和FRA这三个国家，即葡萄牙、英国和法国，而葡萄牙的客户尤其钟爱这两家酒店，占总体用户的28%。
 
 此外，通过图3这些客户中主要以成人为主，以青少年为主要构成的客户只占1.74%，而以儿童为主要构成的客户只有16家，仅占比0.02%。
