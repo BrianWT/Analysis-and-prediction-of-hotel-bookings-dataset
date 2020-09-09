@@ -39,9 +39,12 @@
 
 ### 1.2 客人来自哪里，其年龄组成是怎么样的？
 
+
+<div align=center>
 <img src="images/1.png" style="width:700;height:450;">
 <img src="images/2.png" style="width:700;height:450;">
 <img src="images/3.png" style="width:700;height:450;">
+</div>
 
 通过1.2的图1和图2，可以发现，这两家酒店的预订者来自世界各地，但是其中一般以上的客户来自于PRT、GBR和FRA这三个国家，即葡萄牙、英国和法国，而葡萄牙的客户尤其钟爱这两家酒店，占总体用户的28%。
 
@@ -49,14 +52,18 @@
 
 ### 1.3 客人平均预订多少时间，具体分布？
 
+<div align=center>
 <img src="images/4.png" style="width:700;height:450;">
 <img src="images/5.png" style="width:700;height:450;">
+</div>
 
 通过1.3的图1，可以发现，客户的预定天数呈现一种右偏分布，大多数客户会预订1-4天，每位用户平均会预订3天。而在这其中，Resort Hotel的客户平均预订天数大于City Hotel。
 
 ### 1.4 通过meal分析客人对于服务的需求？
 
+<div align=center>
 <img src="images/6.png" style="width:700;height:450;">
+</div>
 
 总的来说，大部分客户都会选择BB套餐，即住宿+早餐，这也符合我们一般的认知。
 
@@ -64,7 +71,9 @@
 
 ### 1.5 一年中房价如何变化，客人每晚为一间客房支付多少费用？
 
+<div align=center>
 <img src="images/7.png" style="width:720;height:500;">
+</div>
 
 可以发现，胜地酒店（Resort Hotel）在夏季特别是八月左右的时候其房价将达到全年的峰值。但是在其他的季节，胜地酒店的房价则相对处于一个较低的水平。
 
@@ -72,7 +81,9 @@
 
 ### 1.6 一年中哪个月最忙，或者哪个时间段最忙？
 
+<div align=center>
 <img src="images/8.png" style="width:720;height:500;">
+</div>
 
 总体而言，春秋两季是这两家酒店的旺季，其有效旅客量达到全年的高峰。具体来说，城市酒店（City Hotel）每个月的旅客量均大于胜地酒店（Resort Hotel），在旅客旺季（即春秋两季）这种离散程度更是达到了高峰。
 
@@ -84,20 +95,26 @@
 
 ### 1.7 两个酒店各自的旅客入住时间主要是周几？
 
-<div align=center><img src="images/9.png" style="width:450;height:360;"></div>
+<div align=center>
+<div align=center><img src="images/9.png" style="width:700;height:360;"></div>
+</div>
 
 根据上图，可以发现，周五往往是是旅客们最多选择的入住时间，其次是周一。而选择周二入住的旅客最少。
 
 ### 1.8 预订的取消主要来自于哪个时间段，哪个酒店的取消情况更少？
 
+<div align=center>
 <img src="images/10.png" style="width:700;height:450;">
+</div>
 
 可以发现，城市酒店（City Hotel）的客户预订取消比例显著高于胜地酒店（Resort Hotel）;其中，城市酒店的预订取消较为稳定，大致在40%左右，而胜地酒店则呈现夏季高，冬季低的周期性波动。
 
 ### 1.9 客户提出的特殊要求的数量对取消预订的影响？
 
+<div align=center>
 <img src="images/11.png" style="width:560;height:300;">
 <img src="images/12.png" style="width:800;height:400;">
+</div>
 
 根据总体订单、取消预订订单和未取消预订订单的分布情况，结合上图，可以发现，取消预订的订单的特殊要求数量往往较少。
 
@@ -105,7 +122,9 @@
 
 ### 1.10 来自公司的预订有多少，哪家公司是高质量客户?
 
+<div align=center>
 <img src="images/13.png" style="width:480;height:360;">
+</div>
 
 可以发现，ID为0、40、223和45的公司都提供了大于200的订单，有效订单占比均超过60%。其中0号公司的订单和有效订单贡献最多，有效订单相当于其他三家公司有效订单总数的40倍，总体有效订单的92%。
 
@@ -113,7 +132,9 @@
 
 ### 1.11 当前预订之前取消（或不取消）的先前预订的数量能否反映客户取消当前预订的意愿？
 
+<div align=center>
 <img src="images/14.png" style="width:500;height:400;">
+</div>
 
 通过上图，可以发现当前预订之前取消（或不取消）的先前预订的数量同客户是否取消订单之间并不具备显著的相关关系.
 
@@ -160,7 +181,9 @@
 
 **其ROC图如下：**
 
+<div align=center>
 <img src="images/15.png" style="width:720;height:500;">
+</div>
 
 可以发现，通过初步的参数调优，模型的泛化性能有了一定的提升。当然，以上只是进行了初步的调参，在此之外还可以通过对gamma、subsample 、colsample_bytree、reg_alpha 等参数的调整对模型进行进一步的优化。
 
