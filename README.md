@@ -113,7 +113,7 @@
 
 <div align=center>
 <img src="images/11.png" style="width:560;height:300;">
-<img src="images/12.png" style="width:800;height:400;">
+<img src="images/12.png" style="width:600;height:400;">
 </div>
 
 根据总体订单、取消预订订单和未取消预订订单的分布情况，结合上图，可以发现，取消预订的订单的特殊要求数量往往较少。
