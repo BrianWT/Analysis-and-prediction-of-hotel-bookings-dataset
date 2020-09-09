@@ -84,7 +84,7 @@
 
 ### 1.7 两个酒店各自的旅客入住时间主要是周几？
 
-<img src="images/9.png" style="width:450;height:360;">
+<div align=right>!<img src="images/9.png" style="width:450;height:360;">
 
 根据上图，可以发现，周五往往是是旅客们最多选择的入住时间，其次是周一。而选择周二入住的旅客最少。
 
